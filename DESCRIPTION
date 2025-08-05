@@ -1,0 +1,13 @@
+Package: RToolsForSoilScienceModeling
+Title: An R-based repository for modeling and analyzing soil processes
+Version: 0.1.0
+Author: Jules
+Description: An R-based repository for modeling and analyzing soil processes, integrating physics, hydrology, biogeochemistry, and erosion dynamics.
+License: MIT
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports:
+    tidyverse,
+    terra
+Suggests:
+    testthat (>= 3.0.0)

@@ -1,0 +1,33 @@
+@startuml
+skinparam rectangle {
+  backgroundColor<<model>> LightBlue
+}
+
+rectangle "soil_moisture_balance" as smb <<model>>
+rectangle "penman_monteith_et" as pme <<model>>
+rectangle "green_ampt_infiltration" as gai <<model>>
+rectangle "soil_temperature_profile" as stp <<model>>
+rectangle "nitrogen_mineralization" as nm <<model>>
+rectangle "soil_respiration_q10" as srq <<model>>
+rectangle "soil_carbon_decomposition" as scd <<model>>
+rectangle "soil_erosion_usle" as usle <<model>>
+rectangle "bulk_density_calc" as bdc
+rectangle "soil_water_retention_vg" as swrvg
+
+' Dependencies
+pme --> smb : evapotranspiration
+gai --> smb : percolation_input
+
+stp --> nm : temperature
+smb --> nm : moisture
+
+stp --> srq : temperature
+
+stp --> scd : temperature
+smb --> scd : moisture
+
+bdc --> gai : porosity_input
+bdc --> stp : porosity_input
+swrvg --> gai : hydraulic_params
+
+@enduml
