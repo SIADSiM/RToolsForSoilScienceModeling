@@ -11,7 +11,8 @@ You can install the development version of this package from GitHub using `devto
 devtools::install_github("your-github-username/RToolsForSoilScienceModeling_DEV")
 ```
 
-##⚓ Usage Examples
+
+## ⚓ Usage Examples
 
 Here are some examples of how to use the functions in this package. For more detailed examples, please see the scripts in the `/examples` directory.
 
