@@ -1,4 +1,5 @@
 # R Tools For Soil Science Modeling
+[![DOI](https://zenodo.org/badge/1032774832.svg)](https://doi.org/10.5281/zenodo.16748629)
 
 An R-based repository for modeling and analyzing soil processes, integrating physics, hydrology, biogeochemistry, and erosion dynamics.
 
