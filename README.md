@@ -1,5 +1,6 @@
 # R Tools For Soil Science Modeling
 [![DOI](https://zenodo.org/badge/1032774832.svg)](https://doi.org/10.5281/zenodo.16748629)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FSIADSiM%2FRToolsForSoilScienceModeling.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FSIADSiM%2FRToolsForSoilScienceModeling?ref=badge_shield)
 
 An R-based repository for modeling and analyzing soil processes, integrating physics, hydrology, biogeochemistry, and erosion dynamics.
 
@@ -63,6 +64,9 @@ This project is licensed under a custom non-commercial license.
 * ❌ **Commercial use is strictly prohibited without a separate license.**
 
 For commercial licensing inquiries, please contact me at ** s i a d s i m @ g m a i l . c o m  **.
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FSIADSiM%2FRToolsForSoilScienceModeling.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FSIADSiM%2FRToolsForSoilScienceModeling?ref=badge_large)
 
 ## 📑 References
 
